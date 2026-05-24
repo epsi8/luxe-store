@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --cream: #FAF8F4;
+  --charcoal: #1C1C1E;
+  --warm-gray: #6B6860;
+  --accent: #C8A882;
+  --accent-dark: #9B7A56;
+  --border: #E8E4DC;
+  --white: #FFFFFF;
+  --success: #3B6D11;
+  --badge-red: #A32D2D;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--cream);
+  color: var(--charcoal);
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+}
